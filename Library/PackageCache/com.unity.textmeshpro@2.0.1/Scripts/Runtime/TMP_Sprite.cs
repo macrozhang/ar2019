@@ -1,31 +1,3 @@
-﻿using UnityEngine;
-using System;
-using System.Collections;
-using System.Collections.Generic;
-
-
-namespace TMPro
-{
-
-    // Class which contains the Sprite Info for each sprite contained in the sprite asset.
-    [Serializable]
-    public class TMP_Sprite : TMP_TextElement_Legacy
-    {
-        //public int fileID;
-        //public int id;
-        public string name;
-        public int hashCode;
-        public int unicode;
-        //public float x;
-        //public float y;
-        //public float width;
-        //public float height;
-        public Vector2 pivot;
-        //public float xOffset; // Pivot X
-        //public float yOffset; // Pivot Y
-        //public float xAdvance;
-        //public float scale;
-
-        public Sprite sprite;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:a4f73adc6fd7595e935bac918ec754359786db6f510b5c2a6c14098b7250b80e
+size 785

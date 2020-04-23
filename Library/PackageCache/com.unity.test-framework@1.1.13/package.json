@@ -1,27 +1,3 @@
-{
-  "name": "com.unity.test-framework",
-  "displayName": "Test Framework",
-  "version": "1.1.13",
-  "unity": "2019.2",
-  "unityRelease": "0a10",
-  "description": "Test framework for running Edit mode and Play mode tests in Unity.",
-  "keywords": [
-    "Test",
-    "TestFramework"
-  ],
-  "category": "Unity Test Framework",
-  "repository": {
-    "footprint": "0edbd71b6e546163efc787a25bec5c553ea56f7e",
-    "type": "git",
-    "url": "https://github.com/Unity-Technologies/com.unity.test-framework.git",
-    "revision": "4e23f3669a98972ba72ea8f4af092123c2a8f8ed"
-  },
-  "dependencies": {
-    "com.unity.ext.nunit": "1.0.0",
-    "com.unity.modules.imgui": "1.0.0",
-    "com.unity.modules.jsonserialize": "1.0.0"
-  },
-  "relatedPackages": {
-    "com.unity.test-framework.tests": "1.1.13"
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:f6cb82c5313c4764cad69c6785cfdda2f1dec8bf1d06de9eaf1c919f1ac1f28a
+size 790

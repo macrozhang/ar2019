@@ -1,29 +1,3 @@
-using System;
-using UnityEditor;
-using UnityEngine;
-
-namespace Packages.Rider.Editor
-{
-  public class RiderScriptEditorData : ScriptableSingleton<RiderScriptEditorData>
-  {
-    [SerializeField] internal bool HasChanges = true; // sln/csproj files were changed 
-    [SerializeField] internal bool shouldLoadEditorPlugin;
-    [SerializeField] internal bool InitializedOnce;
-    [SerializeField] internal string currentEditorVersion;
-
-    public void Init()
-    {
-      if (string.IsNullOrEmpty(currentEditorVersion))
-        Invalidate(RiderScriptEditor.CurrentEditor);
-    }
-
-    public void Invalidate(string editorInstallationPath)
-    {
-      currentEditorVersion = RiderPathLocator.GetBuildNumber(editorInstallationPath);
-      if (!Version.TryParse(currentEditorVersion, out var version))
-        shouldLoadEditorPlugin = false;
-
-      shouldLoadEditorPlugin = version >= new Version("191.7141.156");
-    }
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:3dc87e924a95caa34f726fd50417c308ece54b7708bfb03e4f631460de52e257
+size 944
