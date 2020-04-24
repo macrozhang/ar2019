@@ -1,3 +1,13 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:33f6e8c31e5ac708da95a8dfd3a094fcca38534846bcdc9491c97016680c049d
-size 261
+{
+    "name": "Unity.TextMeshPro.Editor",
+    "references": [
+        "Unity.TextMeshPro",
+		"Unity.ugui",
+		"Unity.ugui.Editor"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": []
+}

@@ -1,3 +1,7 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:ccfc2f3e6593b84ee7413cb495ae870d26df51b29340feba76400838b7d0514e
-size 299
+** Vuforia Engine **
+
+Copyright (c) 2010-2019 PTC Inc.
+All Rights Reserved.
+
+To view the Vuforia Developer Agreement, go to: https://developer.vuforia.com/legal/vuforia-developer-agreement
+3rd party notices can be found under the Vuforia/Editor/EditorResources/Licenses folder of this package.
