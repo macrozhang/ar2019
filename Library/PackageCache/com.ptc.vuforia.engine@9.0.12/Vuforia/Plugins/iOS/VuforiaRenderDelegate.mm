@@ -1,3 +1,24 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:7fc2452ac06d1bfd775ea431be9ca15ee1ac79d2e60aad5a0650f43e5905a5dc
-size 626
+/*============================================================================
+Copyright (c) 2017 PTC Inc. All Rights Reserved.
+
+Copyright (c) 2014 Qualcomm Connected Experiences, Inc.
+All Rights Reserved.
+============================================================================*/
+ 
+
+#import "VuforiaRenderDelegate.h"
+
+// Exported methods for setting surface recreated flag
+extern "C" void setSurfaceRecreated();
+
+@implementation VuforiaRenderDelegate
+
+- (void)mainDisplayInited:(struct UnityRenderingSurface*)surface
+{
+}
+
+- (void)onAfterMainDisplaySurfaceRecreate
+{
+	setSurfaceRecreated();
+}
+@end
