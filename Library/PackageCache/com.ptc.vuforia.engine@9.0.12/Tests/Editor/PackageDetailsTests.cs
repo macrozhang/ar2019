@@ -1,3 +1,37 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:d5e35d6333a4a123994c259e58fe75b50c1f9929ec2e4aca617a1bd5e9a61963
-size 882
+using Vuforia;
+using NUnit.Framework;
+using UnityEngine;
+
+internal class VuforiaPackageTestSuite
+{
+    private GameObject mARCamera; 
+    
+    [SetUp]
+    public void SetUp()
+    {
+        mARCamera = new GameObject("ARCamera");
+
+        var camera = mARCamera.AddComponent<Camera>();
+        camera.nearClipPlane = 0.05f;
+        camera.farClipPlane = 2000f;
+        camera.clearFlags = CameraClearFlags.Color;
+        camera.backgroundColor = Color.black;
+        camera.depth = 1f;
+        camera.allowHDR = false;
+
+        mARCamera.AddComponent<AudioListener>();
+        mARCamera.AddComponent<VuforiaBehaviour>();
+    }
+    
+    [Test]
+    public void VerifyARCamera()
+    {
+        Assert.IsNotNull(VuforiaBehaviour.Instance);
+    }
+
+    [TearDown]
+    public void TearDown()
+    {
+        GameObject.DestroyImmediate(mARCamera);
+    }
+}
