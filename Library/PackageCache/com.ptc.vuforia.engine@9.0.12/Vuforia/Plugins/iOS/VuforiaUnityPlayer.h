@@ -1,3 +1,22 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:c7a69e772949acca47158cf6c058385198beb2bea26a7834e8adbbcd2a6f45ee
-size 672
+/*============================================================================
+Copyright (c) 2017 PTC Inc. All Rights Reserved.
+
+Copyright (c) 2012-2014 Qualcomm Connected Experiences, Inc.
+All Rights Reserved.
+Confidential and Proprietary - Protected under copyright and other laws.
+============================================================================*/
+
+
+#ifdef __cplusplus
+extern "C"
+{
+#endif
+   
+   int getRotationFlag(int screenOrientation);
+   void setPlatFormNative();
+   int initQCARiOS(int graphicsAPI, int ScreenOrientation, const char* licenseKey);
+   void setSurfaceOrientationiOS(int orientation);
+    
+#ifdef __cplusplus
+}
+#endif

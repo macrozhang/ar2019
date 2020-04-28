@@ -1,3 +1,28 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:fdad89fc40d00d9b6d739aaba077c1b5a8b7236a86783eb3fce35a03c821f50e
-size 1036
+/*===============================================================================
+Copyright 2019 PTC Inc.
+
+Licensed under the Apache License, Version 2.0 (the "License"); you may not
+use this file except in compliance with the License. You may obtain a copy of
+the License at
+
+http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software distributed
+under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR
+CONDITIONS OF ANY KIND, either express or implied. See the License for the
+specific language governing permissions and limitations under the License.
+===============================================================================*/
+
+#ifndef VUFORIA_VB_INCLUDED
+#define VUFORIA_VB_INCLUDED
+
+
+#if(VUFORIA_YUVNV12 || VUFORIA_YUVNV21)
+#include "VuforiaVB_YUVNV12_YUVNV21.cginc"
+#elif(VUFORIA_YUV420P || VUFORIA_YUVYV12)
+#include "VuforiaVB_YUV420P_YUVYV12.cginc"
+#else
+#include "VuforiaVB_RGB.cginc"
+#endif
+
+#endif //VUFORIA_VB_INCLUDED
