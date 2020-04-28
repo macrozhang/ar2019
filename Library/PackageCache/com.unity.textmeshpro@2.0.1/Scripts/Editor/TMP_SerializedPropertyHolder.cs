@@ -1,14 +1,3 @@
-﻿using UnityEngine;
-using UnityEditor;
-
-namespace TMPro
-{
-    class TMP_SerializedPropertyHolder : ScriptableObject
-    {
-        public TMP_FontAsset fontAsset;
-        public uint firstCharacter;
-        public uint secondCharacter;
-
-        public TMP_GlyphPairAdjustmentRecord glyphPairAdjustmentRecord = new TMP_GlyphPairAdjustmentRecord(new TMP_GlyphAdjustmentRecord(), new TMP_GlyphAdjustmentRecord());
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:a9838bc78ef7e5c772cb16030132395d65a1c318fc0cb10077663fb4e452750b
+size 432

@@ -1,23 +1,3 @@
-using System;
-using System.IO;
-using System.Text;
-
-namespace Packages.Rider.Editor {
-  class FileIOProvider : IFileIO
-  {
-    public bool Exists(string fileName)
-    {
-      return File.Exists(fileName);
-    }
-
-    public string ReadAllText(string fileName)
-    {
-      return File.ReadAllText(fileName);
-    }
-
-    public void WriteAllText(string fileName, string content)
-    {
-      File.WriteAllText(fileName, content, Encoding.UTF8);
-    }
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:7538c49b7587cb89c62dc674398d850f07e6e506998eb8b9bd3ef4e355e9478b
+size 474
