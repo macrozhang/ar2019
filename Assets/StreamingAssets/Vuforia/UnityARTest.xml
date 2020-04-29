@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="liangfen" size="300.000000 300.000000" />
+    <ImageTarget name="kezaijian" size="300.000000 272.399994" />
+    <ImageTarget name="kaoshenghao" size="300.000000 300.000000" />
+    <ImageTarget name="hongtangguokui" size="300.000000 300.000000" />
+    <ImageTarget name="hongshaopaigu" size="300.000000 300.000000" />
+    <ImageTarget name="hanbaoshutiao" size="300.000000 399.899994" />
+    <ImageTarget name="guobaorou" size="300.000000 300.000000" />
+    <ImageTarget name="guihuatangou" size="500.000000 666.500000" />
+    <ImageTarget name="dongbeidalapi" size="500.000000 500.000000" />
+    <ImageTarget name="BBQ" size="500.000000 666.500000" />
+    <ImageTarget name="yangzie" size="500.000000 530.035339" />
+    <ImageTarget name="xiniu" size="500.000000 332.272736" />
+    <ImageTarget name="shiyishou" size="500.000000 466.393433" />
+    <ImageTarget name="milu" size="500.000000 420.000000" />
+    <ImageTarget name="meizhoubao" size="500.000000 311.000000" />
+    <ImageTarget name="jiaoma" size="200.000000 150.000000" />
+    <ImageTarget name="dongbeihu" size="200.000000 133.333328" />
+    <ImageTarget name="beijixiong" size="200.000000 152.842102" />
+    <ImageTarget name="beijihu" size="200.000000 150.000000" />
+    <ImageTarget name="banma" size="200.000000 141.210938" />
+    <ImageTarget name="suzhouyuanlin" size="200.000000 112.592590" />
+    <ImageTarget name="changcheng" size="200.000000 132.885910" />
+    <ImageTarget name="shibo" size="200.000000 141.176468" />
+    <ImageTarget name="niaochao" size="200.000000 132.812500" />
+    <ImageTarget name="leifengta" size="200.000000 138.755981" />
+    <ImageTarget name="anhuimatouqiang" size="200.000000 133.437500" />
+    <ImageTarget name="gugong" size="200.000000 150.000000" />
+    <ImageTarget name="fujiantulou" size="200.000000 133.255814" />
+    <ImageTarget name="daijiazhulou" size="200.000000 138.394165" />
+    <ImageTarget name="budalagong" size="200.000000 133.111115" />
+    <ImageTarget name="songhunzong" size="200.000000 188.906250" />
+    <ImageTarget name="Paris" size="10.000000 6.250000" />
+  </Tracking>
+</QCARConfig>

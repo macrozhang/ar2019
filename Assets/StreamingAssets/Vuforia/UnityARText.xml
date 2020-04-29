@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="zebra" size="200.000000 96.749023" />
+    <ImageTarget name="The_Great_Wall" size="200.000000 92.110092" />
+    <ImageTarget name="The_Forbidden_City" size="200.000000 103.935417" />
+    <ImageTarget name="rhino" size="200.000000 97.643982" />
+    <ImageTarget name="LIANGFEN" size="200.000000 104.472847" />
+    <ImageTarget name="BBQ" size="200.000000 112.347351" />
+  </Tracking>
+</QCARConfig>
