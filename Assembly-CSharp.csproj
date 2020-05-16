@@ -63,6 +63,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Github.cs" />
     <Compile Include="Assets\Introduction.cs" />
     <Compile Include="Assets\Menu.cs" />
     <Compile Include="Assets\Scan_Photo.cs" />
